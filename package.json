@@ -1,0 +1,42 @@
+{
+  "name": "git-fetch-scratch-mysql",
+  "version": "1.0.0",
+  "description": "A github fetcher using mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "npx nodemon ./server/index.js",
+    "client-dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradySBaker/git-fetch-scratch-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradySBaker/git-fetch-scratch-mysql/issues"
+  },
+  "homepage": "https://github.com/BradySBaker/git-fetch-scratch-mysql#readme",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "babel": "^6.23.0",
+    "bluebird": "^3.7.2",
+    "express.js": "^1.0.0",
+    "jquery": "^3.6.3",
+    "mysql": "^2.18.1",
+    "node.js": "^0.0.1-security",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redis": "^4.6.4",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
